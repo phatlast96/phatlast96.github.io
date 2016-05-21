@@ -1,5 +1,5 @@
 # Personal Website @ phatlast96.github.io
-This is for a personal website developed to showcase my life.
+This is for a [personal website](https://phatlast96.github.io) developed to showcase my life.
   
   
 ##Future plans for this site:
