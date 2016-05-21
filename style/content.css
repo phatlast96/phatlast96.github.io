@@ -3,12 +3,10 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-color: lightblue;
 	font-color: white;
-
 }
 
-#edu {
+#bio {
 	background-color: lightgrey;
 }
 
@@ -22,8 +20,22 @@
 
 #resume {
 	background-color: lightblue;
+	background-image: url("../assets/penpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: lightblue;
 }
 
 #contact {
-	background-color: lightgrey;
+	padding: 3% 0px 3% 0px;
+	opacity: 20%;
+	color: lightblue;
+	height: calc(100% - attr(h1.height) - attr(linkedin.height))
+
+}
+
+
+#linkedin {
+	margin: 20px 20px 20px 20px;
 }
