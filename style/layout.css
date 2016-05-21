@@ -36,7 +36,7 @@ li a:hover:not(.active) {
 .content {
 	padding: 20px;
 	margin-top: 30px;
-	height: 575px;
+	height: 100%;
     margin: 0;
 }
 
