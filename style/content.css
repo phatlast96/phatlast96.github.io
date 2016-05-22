@@ -8,6 +8,11 @@
 
 #bio {
 	background-color: lightgrey;
+	background-image: url("../assets/night.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-color: white;
 }
 
 #exp {
@@ -28,14 +33,20 @@
 }
 
 #contact {
-	padding: 3% 0px 3% 0px;
 	opacity: 20%;
-	color: lightblue;
-	height: calc(100% - attr(h1.height) - attr(linkedin.height))
-
+	color: lavender;
+	height: 8%;
+	background-color: black;
 }
-
 
 #linkedin {
 	margin: 20px 20px 20px 20px;
+}
+
+h1 {
+	margin: 10px 20px 15px 20px;
+}
+
+#logo {
+	display: inline-block;
 }
