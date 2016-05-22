@@ -12,7 +12,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	font-color: white;
+	color: lightcyan;
 }
 
 #exp {
@@ -39,14 +39,32 @@
 	background-color: black;
 }
 
-#linkedin {
-	margin: 20px 20px 20px 20px;
-}
-
 h1 {
 	margin: 10px 20px 15px 20px;
 }
 
 #logo {
 	display: inline-block;
+}
+
+.autobio {
+	display: inline-block;
+}
+
+#autobiotxt {
+	width: 50%;
+	padding-left: 4%;
+}
+
+#profileimg {
+	border-radius: 50px;
+	margin: 100px 0 0 0;
+}
+
+h2 {
+ font-size: 40pt;
+}
+
+h3 {
+ font-size: 15pt
 }
