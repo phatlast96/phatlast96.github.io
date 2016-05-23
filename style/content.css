@@ -118,7 +118,6 @@ div#exp2:hover {
 .skill {
 	width: 100px;
 	height: 60px;
-	background-color: green;
 	color: white;
 	border-radius: 50px;
 	text-align: center;
@@ -129,9 +128,46 @@ div#exp2:hover {
 	padding-top: 40px;
 }
 
-.skill:hover {
+
+#adv {
+	background-color: red;
+}
+
+div#adv:hover {
+	background-color: white;
+	color: red;
+	border-style: solid;
+}
+
+#prof {
+	background-color: blue;
+}
+
+div#prof:hover {
+	background-color: white;
+	color: blue;
+	border-style: solid;
+}
+
+#beg {
+	background-color: green;
+}
+
+div#beg:hover {
 	background-color: white;
 	color: green;
 	border-style: solid;
+}
+
+#advt {
+	color: red;
+}
+
+#proft {
+	color: blue;
+}
+
+#begt {
+	color: green;
 }
 
