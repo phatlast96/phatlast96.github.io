@@ -3,6 +3,7 @@ This is for a [personal website](https://phatlast96.github.io) developed to show
   
   
 ##Future plans for this site:
+- A dropdown menu for experiences.
 - List of experiences
 - List of personal software projects
 - List of personal graphic design projects

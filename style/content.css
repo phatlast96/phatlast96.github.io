@@ -19,7 +19,7 @@
 	background-color: lightblue;
 }
 
-#proj {
+#skills {
 	background-color: lightgrey;
 }
 
@@ -43,7 +43,7 @@ h1 {
 	margin: 10px 20px 15px 20px;
 }
 
-#logo {
+.logo {
 	display: inline-block;
 }
 
@@ -67,4 +67,44 @@ h2 {
 
 h3 {
  font-size: 15pt
+}
+
+#sectionTitle {
+	width: 100%;
+	color: lightcyan;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-align: center;
+}
+
+
+.row1xp {
+ 	width: 47%;
+ 	display: inline-block;
+ 	height: 50px;
+ 	margin: 0;
+ 	border-radius: 15px;
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	color: white;
+ 	font-family: Futura,"Trebuchet MS",Arial,sans-serif
+
+}
+#exp1 {
+	background-color: red;
+	margin-right: 5%; 
+}
+#exp2 {
+	background-color: green;
+}
+
+.xpinfo {
+	margin: 0;
+}
+
+div#exp1:hover {
+	background-color: grey;
+}
+
+div#exp2:hover {
+	background-color: grey;
 }
