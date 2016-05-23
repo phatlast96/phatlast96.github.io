@@ -112,6 +112,7 @@ div#exp2:hover {
 .skillLevel {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: lightcyan;
+	width: 100%;
 
 }
 
