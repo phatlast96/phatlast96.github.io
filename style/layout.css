@@ -6,6 +6,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: lightblue;
+    opacity: .4;
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,6 +24,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-family: sans-serif;
+    height: 22px;
 }
 
 li a:hover:not(.active) {
@@ -35,8 +37,8 @@ li a:hover:not(.active) {
 
 .content {
 	padding: 20px;
-	margin-top: 30px;
-	height: 100%;
+	/*margin-top: 30px;*/
+	height: auto;
     margin: 0;
 }
 

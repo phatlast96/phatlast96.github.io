@@ -1,23 +1,25 @@
+/******************* Different sections ********************************/
 #homepage {
 	background-image: url("../assets/enjoy.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	font-color: white;
+	color: white;
 }
 
 #bio {
-	background-color: lightgrey;
-	background-image: url("../assets/night.jpg");
+	background-color: #ffd67a;
+/*	background-image: url("../assets/night.jpg");*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	color: lightcyan;
+	color: white;
+	padding: 10px 0 20px 0;
 }
 
 #exp {
 	background-color: lightblue;
-	height: 50%;
+	height: auto;
 }
 
 #skills {
@@ -36,16 +38,13 @@
 #contact {
 	opacity: 20%;
 	color: lavender;
-	height: 8%;
+	/*height: 8%;*/
 	background-color: black;
+	padding: 20px 20px 8px 40px;
 }
 
 h1 {
-	margin: 10px 20px 15px 20px;
-}
-
-.logo {
-	display: inline-block;
+	margin: 10px 20px 15px 0px;
 }
 
 .autobio {
@@ -55,19 +54,28 @@ h1 {
 #autobiotxt {
 	width: 50%;
 	padding-left: 4%;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 #profileimg {
-	border-radius: 50px;
-	margin: 100px 0 0 0;
+	border-radius: 200px;
+	margin: 100px 0 0 40px;
+	height: 300px;
+	width: 300px;
 }
 
-h2 {
- font-size: 40pt;
+#name {
+	padding-bottom: 0;
+	margin-bottom: 30px;
+	font-size: 50pt;
+	display: inline-block;
+	margin-right: 15px;
+	font-family: "Brush Script MT", cursive;
 }
 
-h3 {
- font-size: 15pt
+#epithets {
+	font-size: 15pt;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #sectionTitle {
@@ -75,6 +83,7 @@ h3 {
 	color: lightcyan;
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	text-align: center;
+	font-size: 40pt;
 }
 
 
@@ -88,14 +97,18 @@ h3 {
  	padding-top: 10px;
  	color: white;
  	font-family: Futura,"Trebuchet MS",Arial,sans-serif
-
 }
+
 #exp1 {
 	background-color: red;
 	margin-right: 5%; 
+	height: auto;
+	padding-bottom: 10px;
 }
 #exp2 {
 	background-color: green;
+	height: auto;
+	padding-bottom: 10px;
 }
 
 .xpinfo {
@@ -173,3 +186,82 @@ div#beg:hover {
 	color: green;
 }
 
+#intro {
+	background-color: lavender;
+	width: 100%;
+
+}
+
+.style-1 {
+	font-size: 15pt;
+	text-align: center;
+	color: black;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+.style-2 {
+	text-align: center;
+	font-size: 40pt;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	padding: 10px 0 10px 0;
+}
+
+.style-title {
+	text-align: center;
+	font-size: 50pt;
+	font-family: Papyrus, fantasy;
+	letter-spacing: 1px;
+	background-color: #21a1b7;
+   	color: white;
+   	padding-top: 30px;
+}
+
+#undergrad {
+	text-align: left;
+	background-color: #d2ceca;
+	color: white;
+}
+
+.college {
+	display: inline-block;
+	font-size: 40px;
+}
+
+.college-img {
+	float: right;
+	margin: 0;
+}
+
+.work-info {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+#job1 {
+	background-color: #404eb1;
+	color: #fef0d5;
+}
+
+#job2 {
+	background-color: #fef0d5;
+	color: #404eb1;
+}
+
+#job-title {
+
+}
+
+#job-info {
+
+}
+
+#job-question {
+
+}
+
+#job-answer {
+
+}
+
+#job-time {
+
+}
