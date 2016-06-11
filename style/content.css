@@ -174,10 +174,6 @@ div#beg:hover {
 	border-style: solid;
 }
 
-#advt {
-	color: red;
-}
-
 #proft {
 	color: blue;
 }
@@ -233,7 +229,7 @@ div#beg:hover {
 }
 
 .work-info {
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
 }
 
 #job1 {
@@ -247,21 +243,40 @@ div#beg:hover {
 }
 
 #job-title {
-
+	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+	font-size: 13pt;
 }
 
 #job-info {
-
+	padding: 0 30px 0 30px;
+	margin: 1px 0 1px 0;
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
 }
 
 #job-question {
+	color: grey;
 
 }
 
 #job-answer {
+	padding: 0 30px 0 30px;
+	display: block;
+	color: grey;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
 
+#job-question:hover, #job-answer:hover {
+	color: white;
 }
 
 #job-time {
+	font-family: "Lucida Sans Typewriter","Lucida Console",monaco,"Bitstream Vera Sans Mono",monospace
+}
 
+#workplace {
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+	font-size: 20pt;
+	display: block;
 }
