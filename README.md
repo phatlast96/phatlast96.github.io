@@ -20,13 +20,6 @@ This is for a [personal website](https://phatlast96.github.io) developed to show
 - Landing needs work on giving out visual pleasures.
 - Needs to organize information clearly.
 
-## Education page
-- Needs to show coursework
-- Needs to be more artistic
-
-## Experience page
-- Needs work on each job experience section
-
 ## Project page
 - Needs to be get started.
 
