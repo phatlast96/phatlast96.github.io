@@ -48,7 +48,11 @@
 		<span class='class-code'>Data8</span> Foundations of Data Science <br>
 	</div>
 
-	<div class='content style-title' style="height: 50px"></div>
+	<div class='content style-style-2' id='warning-note'>
+		Warning: The list of coursework does not indicate the full body of knowledge that I have gained during my undergraduate career.
+	</div>
+	
+	<div class='content style-title' style="height: 70px"></div>
 
 	<div id="contact" class='content'> 
 		<a name="contact"> </a>
@@ -74,4 +78,14 @@
         	<img src="http://www.free-icons-download.net/images/gmail-logo-icon-64324.png" width="33" height="33" border="0" alt="Mail" class='logo'>
         </a>
 	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+	    $("#undergrad").click(function(){
+	        $("div#undergrad-courses").toggle();
+	        $("div#warning-note").toggle();
+	    });
+	});
+	</script>
 </body>

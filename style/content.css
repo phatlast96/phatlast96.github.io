@@ -223,6 +223,13 @@ div#beg:hover {
 	color: #ffcb29;
 }
 
+#warning-note {
+	background-color:red;
+	display:none;
+	font-size: 15pt;
+	color: white;
+}
+
 .course-list {
 	text-align: left;
 }
