@@ -218,13 +218,26 @@ div#beg:hover {
 	color: #0e135a;
 }
 
+#undergrad-courses {
+	background-color: #0e135a;
+	color: #ffcb29;
+}
+
+.course-list {
+	text-align: left;
+}
+
+.class-code {
+	color: #5d92dd;
+}
+
 .college {
 	display: inline-block;
 	font-size: 25pt;
 }
 
 .college-img {
-	margin: 0 0 0 200px;
+	margin: 0 0 0 15.625%;
 	padding: 0;
 	float: none;
 }
