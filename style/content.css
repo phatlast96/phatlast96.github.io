@@ -214,18 +214,19 @@ div#beg:hover {
 
 #undergrad {
 	text-align: left;
-	background-color: #d2ceca;
-	color: white;
+	background-color: #ffcb29;
+	color: #0e135a;
 }
 
 .college {
 	display: inline-block;
-	font-size: 40px;
+	font-size: 25pt;
 }
 
 .college-img {
-	float: right;
-	margin: 0;
+	margin: 0 0 0 200px;
+	padding: 0;
+	float: none;
 }
 
 .work-info {
