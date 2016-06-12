@@ -42,6 +42,12 @@
     font-family: Davys Crappy Writ;
     src: url(../fonts/davyscrappywrit.ttf);
 }
+
+@font-face {
+    font-family: Peterbuilt;
+    src: url(../fonts/peterbuilt.ttf);
+}
+
 body {margin:0;}
 
 ul {
