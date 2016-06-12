@@ -1,3 +1,37 @@
+@font-face {
+    font-family: woodys;
+    src: url(../fonts/woodys.woff);
+}
+
+@font-face {
+    font-family: Chlorinar;
+    src: url(../fonts/chlorinr.ttf);
+}
+
+@font-face {
+    font-family: Alanis Hand;
+    src: url(../fonts/alanishand.ttf);
+}
+
+@font-face {
+    font-family: digital-7;
+    src: url(../fonts/digital-7.ttf);
+}
+
+@font-face {
+    font-family: Junegull;
+    src: url(../fonts/junegull_rg.ttf);
+}
+
+@font-face {
+    font-family: ShoCard Caps NF;
+    src: url(../fonts/sho-cardcapsnf.ttf);
+}
+
+@font-face {
+    font-family: Ashcan BB;
+    src: url(../fonts/ashcanbb_bold.ttf);
+}
 body {margin:0;}
 
 ul {
@@ -6,7 +40,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: lightblue;
-    opacity: .4;
+    opacity: .5;
     position: fixed;
     top: 0;
     width: 100%;
@@ -19,20 +53,22 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
     height: 22px;
 }
 
 li a:hover:not(.active) {
     background-color: blueviolet;
+    color:white;
 }
 
 .active {
     background-color: #4CAF50;
+    color: white;
 }
 
 .content {

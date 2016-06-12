@@ -14,7 +14,7 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	color: white;
-	padding: 10px 0 20px 0;
+	padding: 20px 0 20px 0;
 }
 
 #exp {
@@ -75,8 +75,7 @@ h1 {
 }
 
 #epithets {
-	font-size: 1.25em;
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	
 }
 
 #sectionTitle {
@@ -124,10 +123,10 @@ div#exp2:hover {
 }
 
 .skillLevel {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: ShoCard Caps NF;
 	color: lightcyan;
 	width: 100%;
-
+	font-size: 1.5em;
 }
 
 .skill {
@@ -209,7 +208,8 @@ div#beg:hover {
 .style-title {
 	text-align: center;
 	font-size: 4.17em;
-	font-family: Papyrus, fantasy;
+	/*font-family: Papyrus, fantasy;*/
+	font-family: Chlorinar;
 	letter-spacing: 1px;
 	background-color: #21a1b7;
    	color: white;
@@ -268,7 +268,7 @@ div#beg:hover {
 }
 
 #job-title {
-	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+	font-family: Ashcan BB;
 	font-size: 1.083em;
 }
 
@@ -297,11 +297,41 @@ div#beg:hover {
 }
 
 #job-time {
-	font-family: "Lucida Sans Typewriter","Lucida Console",monaco,"Bitstream Vera Sans Mono",monospace
+	/*font-family: "Lucida Sans Typewriter","Lucida Console",monaco,"Bitstream Vera Sans Mono",monospace;*/
+	font-family: digital-7;
+	font-size: 1.3em;
 }
 
 #workplace {
-	font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+	/*font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;*/
+	font-family: junegull;
 	font-size: 1.666em;
 	display: block;
+}
+
+.nametag-header {
+	background-color: red;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 9em;
+	font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif
+}
+
+#nametag-lowerhead {
+	font-size: 4em;
+	padding-bottom: .78125%;
+}
+
+#nametag-name {
+	text-align: center;
+	font-size: 12em;
+	padding: 5% 0 5% 0;
+	font-family: Alanis Hand;
+}
+
+#nametag-footer {
+	background-color: red;
+	height: 60px;
+	width: 100%;
 }
