@@ -35,7 +35,12 @@
 
 @font-face {
     font-family: Daniel;
-    src: url(..fonts/daniel-regular.otf);
+    src: url(../fonts/daniel-regular.otf);
+}
+
+@font-face {
+    font-family: Davys Crappy Writ;
+    src: url(../fonts/davyscrappywrit.ttf);
 }
 body {margin:0;}
 
