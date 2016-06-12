@@ -32,6 +32,11 @@
     font-family: Ashcan BB;
     src: url(../fonts/ashcanbb_bold.ttf);
 }
+
+@font-face {
+    font-family: Daniel;
+    src: url(..fonts/daniel-regular.otf);
+}
 body {margin:0;}
 
 ul {
