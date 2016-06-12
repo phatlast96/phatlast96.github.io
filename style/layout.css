@@ -48,6 +48,11 @@
     src: url(../fonts/peterbuilt.ttf);
 }
 
+@font-face {
+    font-family: writ;
+    src: url('../fonts/ananda_hastakchyar.ttf');
+}
+
 body {margin:0;}
 
 ul {
