@@ -106,7 +106,7 @@ img {
 /* Hide the list item that contains the link that should open and close the navigationBar on small screens */
 ul.navigationBar li.icon {display: none;}
 
-/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the navigationBar (li.icon) */
 @media screen and (max-width:680px) {
   ul.navigationBar li:not(:first-child) {display: none;}
   ul.navigationBar li.icon {
