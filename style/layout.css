@@ -82,7 +82,7 @@ li a {
     height: 22px;
 }
 
-li a:hover:not(.active) {
+ul.navigationBar li a:hover:not(.active) {
     background-color: blueviolet;
     color:white;
 }
@@ -117,7 +117,7 @@ ul.navigationBar li.icon {display: none;}
 
 /* The "responsive" class is added to the navigationBar with JavaScript when the user clicks on the icon. This class makes the navigationBar look good on small screens */
 @media screen and (max-width:680px) {
-  ul.navigationBar.responsive {position: relative;}
+  ul.navigationBar.responsive {position: fixed; opacity: 1;}
   ul.navigationBar.responsive li.icon {
     position: absolute;
     right: 0;
