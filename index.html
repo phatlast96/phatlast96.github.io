@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header>
-			<ul id="navigationBar">
+			<ul class="navigationBar">
 				<li><a href='index.html'><img border="0" alt="palmtree" src="assets/home.ico" width="18" height="18"></a></li>
 				<li><a href='biography.html'>About</a></li>
 				<li><a href='assets/resume.pdf'>Resume</a></li>
@@ -16,6 +16,9 @@
 				<li><a href='workexperience.html'>Experiences</a></li>
 				<li><a href='projects.html'>Projects</a></li>
 				<li style="float:right"><a class="active" href="biography.html">Phat Pham</a></li>
+				<li class="icon">
+    				<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  				</li>
 			</ul>
 		</header>
 
@@ -82,5 +85,14 @@
 	        	<img src="http://www.free-icons-download.net/images/gmail-logo-icon-64324.png" width="33" height="33" border="0" alt="Mail" class='logo'>
 	        </a>
 		</div>
+
+		
 	</body>
+
+	<script>
+		function myFunction() {
+	    	document.getElementsByClassName("navigationBar")[0].classList.toggle("responsive");
+		}
+	</script>
+	
 </html>
