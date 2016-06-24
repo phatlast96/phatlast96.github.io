@@ -1,7 +1,8 @@
 # Personal Website @ phatlast96.github.io
 This is for a [personal website](https://phatlast96.github.io) developed to showcase my life. <br/>
-Tools used: HTML, CSS, jQuery
-  
+Tools used: HTML, CSS, jQuery <br/>
+Mobile-friendly
+
 ##Future plans for this site
 - A dropdown menu for projects.
 - List of personal software projects
